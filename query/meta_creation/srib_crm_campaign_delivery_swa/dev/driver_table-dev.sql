@@ -1,0 +1,3 @@
+INSERT INTO el_workflow.driver_table (table_id,table_run_type,table_run_frequency,table_description,gbq_path,gbq_table_name,ars_table_name,incremental_column_name,glue_configurations,table_status,rs_database,rs_region,load_type) 
+VALUES 
+(4052, 'Incremental Load', 'Daily', 'This table holds data of crm-etl-data-dev.02_etl_if.srib_crm_campaign_delivery_swa', '/path/to/gbq_table', 'crm-etl-data-dev.02_etl_if.srib_crm_campaign_delivery_swa', 'etl.srib_crm_campaign_delivery', '_etl_change_datetime', 'SMALL', 'Active', 'swa', 'SIN', 'import');
